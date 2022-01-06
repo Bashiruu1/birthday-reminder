@@ -1,7 +1,11 @@
-import './App.css'
+import BirthdayList from './components/BirthdayList'
 
 function App() {
-  return <div className='App'></div>
+  return (
+    <main>
+      <BirthdayList />
+    </main>
+  )
 }
 
 export default App
